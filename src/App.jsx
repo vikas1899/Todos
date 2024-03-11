@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://source.unsplash.com/1600x900/?nature")
+    fetch("https://source.unsplash.com/1600x900/?beach")
       .then((response) => {
         // Check if the response is successful
         if (response.ok) {
