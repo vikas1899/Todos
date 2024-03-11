@@ -9,8 +9,13 @@ function App() {
   const [imageData, setImageData] = useState(null);
   const [loading, setLoading] = useState(true);
 
+useEffect(() => {
+  const windowWidth = window.innerWidth;
+  const windowHeight = window.innerHeight;
+  const imageSize = `${windowWidth}x${windowHeight}`;
+  
   useEffect(() => {
-    fetch("https://source.unsplash.com/1600x900/?random")
+    fetch("https://source.unsplash.com/${imageSize}/?random")
       .then((response) => {
         // Check if the response is successful
         if (response.ok) {
