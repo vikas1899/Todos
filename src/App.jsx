@@ -15,7 +15,7 @@ useEffect(() => {
   const imageSize = `${windowWidth}x${windowHeight}`;
   
   useEffect(() => {
-    fetch("https://source.unsplash.com/${imageSize}/?random")
+    fetch("https://source.unsplash.com/${imageSize}/?color")
       .then((response) => {
         // Check if the response is successful
         if (response.ok) {
