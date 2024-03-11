@@ -84,7 +84,7 @@ function App() {
             backgroundImage: `url(${imageData})`,
           }}
         >
-          <div className="w-[90vw] backdrop-blur-sm bg-white/30  max-w-2xl mx-auto  rounded-lg px-4 py-3 text-white">
+          <div className="w-[90vw] backdrop-blur-sm bg-white/40  max-w-2xl mx-auto  rounded-lg px-4 py-3 text-white">
             <h1 className="text-4xl shadow-gray-100 text-slate-800 font-bold text-center mb-8 mt-2">
               Manage Your Todos
             </h1>
