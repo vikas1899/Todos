@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://source.unsplash.com/1600x900/? programming")
+    fetch("https://source.unsplash.com/1600x900/?random")
       .then((response) => {
         // Check if the response is successful
         if (response.ok) {
