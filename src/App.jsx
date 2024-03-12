@@ -85,7 +85,7 @@ function App() {
           }}
         >
           <div className="w-[90vw] backdrop-blur-sm bg-slate-100/20  max-w-2xl mx-auto  rounded-lg px-4 py-3 text-white">
-            <h1 className="text-3xl sm:text-4xl max-w-fit mx-auto backdrop-blur
+            <h1 className="text-4xl max-w-fit mx-auto backdrop-blur
 text-center bg-slate-900/80 px-2 rounded-md  py-1 text-slate-100 font-bold  mb-8 mt-2">
               Manage Your Todos
             </h1>
